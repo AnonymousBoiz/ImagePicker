@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.werb.pickphotosample.app-mergeDebugResources-33:/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\PC\\StudioProjects\\2023\\05-2023\\PickPhotoSample\\pickphotoview\\build\\intermediates\\packaged_res\\debug\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,152,203,265,318,361",
+                        "endColumns": "47,48,50,61,52,42,40",
+                        "endOffsets": "98,147,198,260,313,356,397"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "108,156,205,256,318,371,414",
+                        "endColumns": "47,48,50,61,52,42,40",
+                        "endOffsets": "151,200,251,313,366,409,450"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC\\StudioProjects\\2023\\05-2023\\PickPhotoSample\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "52",
+                        "endOffsets": "65"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    }
+                }
+            ]
+        }
+    ]
+}

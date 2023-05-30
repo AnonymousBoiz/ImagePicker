@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PickPhotoSample</string>
+    <string name="pick_all_photo">All Photos</string>
+    <string name="pick_photo_cancel">cancel</string>
+    <string name="pick_photo_size">(%1$s)</string>
+    <string name="pick_photo_size_limit">Max size %1$s </string>
+    <string name="pick_photo_sure">add(%1$d)</string>
+    <string name="pick_photos">Photo</string>
+    <string name="pick_pick">Select</string>
+</resources>

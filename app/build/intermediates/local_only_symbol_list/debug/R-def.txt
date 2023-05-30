@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue_accent
+color blue_primary
+color blue_primary_dark
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color green_accent
+color green_primary
+color green_primary_dark
+color pink
+color transparent
+color white
+color white_pressed
+drawable bg
+drawable bg_gradient_dusk
+drawable bg_moon
+drawable bg_mountains_geometric
+drawable bg_rectangle_outline_white_pressed
+drawable bg_stars
+drawable btn_bg
+id btn1
+id btn2
+id btn3
+id image
+id intro_layout
+id listview_background_shape
+id photo_list
+layout activity_main
+layout item_image
+mipmap ic_launcher
+string app_name
+style AppTheme
+style CustomButtonStyle
+xml file_paths

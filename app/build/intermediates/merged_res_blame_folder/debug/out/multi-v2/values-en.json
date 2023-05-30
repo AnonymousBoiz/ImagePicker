@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.werb.pickphotosample.app-mergeDebugResources-33:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\PC\\StudioProjects\\2023\\05-2023\\PickPhotoSample\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "52",
+                        "endOffsets": "65"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC\\StudioProjects\\2023\\05-2023\\PickPhotoSample\\pickphotoview\\build\\intermediates\\packaged_res\\debug\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,162,213,278,332,378",
+                        "endColumns": "53,52,50,64,53,45,44",
+                        "endOffsets": "104,157,208,273,327,373,418"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "108,162,215,266,331,385,431",
+                        "endColumns": "53,52,50,64,53,45,44",
+                        "endOffsets": "157,210,261,326,380,426,471"
+                    }
+                }
+            ]
+        }
+    ]
+}

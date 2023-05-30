@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.werb.pickphotosample"
+4    android:versionCode="10"
+5    android:versionName="1.3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:7:22-62
+14
+15    <permission
+15-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\0417b27c1211f5cee86c7e63f9e39392\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+16        android:name="com.werb.pickphotosample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\0417b27c1211f5cee86c7e63f9e39392\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\0417b27c1211f5cee86c7e63f9e39392\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.werb.pickphotosample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\0417b27c1211f5cee86c7e63f9e39392\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\0417b27c1211f5cee86c7e63f9e39392\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:9:5-45:19
+22        android:allowBackup="true"
+22-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.10.1] C:\Users\PC\.gradle\caches\transforms-3\0417b27c1211f5cee86c7e63f9e39392\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:11:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:12:9-41
+27        android:supportsRtl="true"
+27-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:13:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:14:9-40
+30        <activity
+30-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:15:9-23:20
+31            android:name="com.werb.pickphotosample.MainActivity"
+31-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:16:13-41
+32            android:exported="true" >
+32-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:17:13-36
+33            <intent-filter>
+33-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:18:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:19:17-69
+34-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:19:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:21:17-77
+36-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:25:9-33:20
+41            android:name="androidx.core.content.FileProvider"
+41-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:26:13-62
+42            android:authorities="com.werb.pickphotosample"
+42-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:27:13-59
+43            android:exported="false"
+43-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:28:13-37
+44            android:grantUriPermissions="true" >
+44-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:29:13-47
+45            <meta-data
+45-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:30:13-32:64
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:31:17-67
+47                android:resource="@xml/file_paths" />
+47-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:32:17-51
+48        </provider>
+49        <provider
+50            android:name="com.werb.pickphotoview.provider.PickProvider"
+50-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:36:13-72
+51            android:authorities="com.werb.pickphotosample.provider"
+51-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:37:13-60
+52            android:exported="false"
+52-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:38:13-37
+53            android:grantUriPermissions="true" >
+53-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:39:13-47
+54            <meta-data
+54-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:30:13-32:64
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:31:17-67
+56                android:resource="@xml/pick_file_paths" />
+56-->C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:32:17-51
+57        </provider>
+58
+59        <activity
+59-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:52
+60            android:name="com.werb.pickphotoview.PickPhotoActivity"
+60-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-68
+61            android:screenOrientation="portrait"
+61-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-49
+62            android:theme="@style/PickBaseTheme" />
+62-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-49
+63        <activity
+63-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-23:49
+64            android:name="com.werb.pickphotoview.PickPhotoPreviewActivity"
+64-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-75
+65            android:screenOrientation="portrait"
+65-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-49
+66            android:theme="@style/Full.Theme" />
+66-->[:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-46
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+70            android:authorities="com.werb.pickphotosample.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\PC\.gradle\caches\transforms-3\341c6521ea69a37f2ade796237291cc8\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\PC\.gradle\caches\transforms-3\341c6521ea69a37f2ade796237291cc8\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\PC\.gradle\caches\transforms-3\341c6521ea69a37f2ade796237291cc8\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PC\.gradle\caches\transforms-3\be189031b82e08737c4c11d74b8ca450\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>
