@@ -25,6 +25,7 @@ id btn1
 id btn2
 id btn3
 id image
+id imgBg
 id intro_layout
 id listview_background_shape
 id photo_list

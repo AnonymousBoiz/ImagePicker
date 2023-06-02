@@ -23,18 +23,8 @@
         </activity>
 
         <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.werb.pickphotosample"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
-        </provider>
-
-        <provider
             android:name="com.werb.pickphotoview.provider.PickProvider"
-            android:authorities="${applicationId}.provider"
+            android:authorities="com.werb.pickphotosample.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

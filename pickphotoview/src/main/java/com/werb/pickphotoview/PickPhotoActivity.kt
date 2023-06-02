@@ -6,7 +6,10 @@ import android.content.Intent
 import android.graphics.PorterDuff
 import android.net.Uri
 import android.os.Bundle
+import android.provider.MediaStore
+import android.util.Log
 import androidx.annotation.Keep
+import com.bumptech.glide.Glide
 import com.werb.eventbus.EventBus
 import com.werb.eventbus.Subscriber
 import com.werb.pickphotoview.event.PickFinishEvent
@@ -20,7 +23,9 @@ import com.werb.pickphotoview.ui.ListFragment
 import com.werb.pickphotoview.util.PickConfig
 import com.werb.pickphotoview.util.PickPhotoHelper
 import com.werb.pickphotoview.util.PickUtils
+import kotlinx.android.synthetic.main.pick_activity_pick_photo.*
 import kotlinx.android.synthetic.main.pick_widget_my_toolbar.*
+import java.io.File
 import java.io.Serializable
 
 
@@ -153,13 +158,20 @@ class PickPhotoActivity :  BasePickActivity() {
                     path = path.replace("/pick_camera", "/storage/emulated/0/DCIM/Camera")
                 }
             } else {
-                path = PickUtils.getInstance(this.applicationContext).getFilePath(this)
+                path = PickUtils.getInstance(this.applicationContext).path
+                Log.d("55555555555", path)
             }
-            sendBroadcast(Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.parse("file://" + path!!)))
             val intent = Intent()
             intent.putExtra(PickConfig.INTENT_IMG_LIST_SELECT, arrayListOf(path))
-            setResult(PickConfig.PICK_PHOTO_DATA, intent)
-            finish()
+
+            Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE).also { mediaScanIntent ->
+                val f = File(path)
+                mediaScanIntent.data = Uri.fromFile(f)
+                sendBroadcast(mediaScanIntent)
+            }.also {
+                setResult(PickConfig.CAMERA_PHOTO_DATA, intent)
+                finish()
+            }
         }
         if (requestCode == PickConfig.PREVIEW_PHOTO_DATA) {
             add()

@@ -3080,6 +3080,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgBg
 id immediateStop
 id included
 id indeterminate

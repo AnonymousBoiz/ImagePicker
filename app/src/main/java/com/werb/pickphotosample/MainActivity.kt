@@ -17,14 +17,17 @@ import com.werb.pickphotoview.PickPhotoView
 import com.werb.pickphotoview.adapter.SpaceItemDecoration
 import com.werb.pickphotoview.util.PickConfig
 import com.werb.pickphotoview.util.PickUtils
+import kotlinx.android.synthetic.main.activity_main.*
 
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
     private var adapter: SampleAdapter? = null
-//    private var permissionChecker: PermissionChecker? = null
-    private val PERMISSIONS = arrayOf(Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+
+    //    private var permissionChecker: PermissionChecker? = null
+    private val PERMISSIONS =
+        arrayOf(Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE)
 
     private val REQUEST_CODE = 1000
 
@@ -37,7 +40,8 @@ class MainActivity : AppCompatActivity() {
 //            permissionChecker!!.requestPermissions()
 //        }
 
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED){
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+            != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, PERMISSIONS, REQUEST_CODE)
         }
 
@@ -55,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                 .setToolbarColor(R.color.white)       // toolbar color
                 .setToolbarTextColor(R.color.black)   // toolbar text color
                 .setSelectIconColor(R.color.pink)     // select icon color
-                .setShowGif(false)                    // is show gif
+                .setShowGif(false) // is show gif
                 .start()
         }
 
@@ -94,7 +98,12 @@ class MainActivity : AppCompatActivity() {
         val photoList = findViewById<View>(R.id.photo_list) as RecyclerView
         val layoutManager = GridLayoutManager(this, 4)
         photoList.layoutManager = layoutManager
-        photoList.addItemDecoration(SpaceItemDecoration(PickUtils.getInstance(this.applicationContext).dp2px(PickConfig.ITEM_SPACE.toFloat()), 4))
+        photoList.addItemDecoration(
+            SpaceItemDecoration(
+                PickUtils.getInstance(this.applicationContext)
+                    .dp2px(PickConfig.ITEM_SPACE.toFloat()), 4
+            )
+        )
         adapter = SampleAdapter(this, null)
         photoList.adapter = adapter
     }
@@ -108,12 +117,25 @@ class MainActivity : AppCompatActivity() {
             return
         }
         if (requestCode == PickConfig.PICK_PHOTO_DATA) {
-            val selectPaths = data.getSerializableExtra(PickConfig.INTENT_IMG_LIST_SELECT) as ArrayList<String>
+
+            val selectPaths =
+                data.getSerializableExtra(PickConfig.INTENT_IMG_LIST_SELECT) as ArrayList<String>
+            adapter!!.updateData(selectPaths)
+        }
+        if (resultCode == PickConfig.CAMERA_PHOTO_DATA) {
+            Log.d("4444444", "gggggggg")
+            imgBg.setImageURI(data.data)
+            val selectPaths =
+                data.getSerializableExtra(PickConfig.INTENT_IMG_LIST_SELECT) as ArrayList<String>
             adapter!!.updateData(selectPaths)
         }
     }
 
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<String>,
+        grantResults: IntArray
+    ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         when (requestCode) {
             REQUEST_CODE -> {
@@ -122,7 +144,7 @@ class MainActivity : AppCompatActivity() {
 
                 } else {
                     Toast.makeText(this, "Permission Denied", Toast.LENGTH_SHORT).show()
-                  finish()
+                    finish()
                 }
             }
         }

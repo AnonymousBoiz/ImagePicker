@@ -168,7 +168,6 @@
 # End of content from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\proguard-rules.pro
 # The proguard configuration file for the following section is C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\build\intermediates\aapt_proguard_file\debug\aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class androidx.core.content.FileProvider { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
 -keep class com.werb.pickphotosample.MainActivity { <init>(); }

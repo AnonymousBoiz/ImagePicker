@@ -1,20 +1,9 @@
 -- Merging decision tree log ---
-provider#com.werb.pickphotoview.provider.PickProvider
-INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:35:9-43:20
-	android:grantUriPermissions
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:39:13-47
-	android:authorities
-		INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:37:13-60
-	android:exported
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:38:13-37
-	android:name
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:36:13-72
 manifest
-ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-26:12
 MERGED from [com.werb.moretype:moretype:0.3.6] C:\Users\PC\.gradle\caches\transforms-3\8663931c1982f1cf5c55809f30bbc782\transformed\jetified-moretype-0.3.6\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\PC\.gradle\caches\transforms-3\0d291c9371dfbedda11ea76171717f69\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
@@ -62,20 +51,20 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\PC\.gradle\caches\t
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a91d0e13601b70491790d353890fd533\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\eb096476208bed94cd51cc904aa804e3\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\87b6f924c6c766718f595823a69da52a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:2:11-69
@@ -98,7 +87,7 @@ MERGED from [:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSa
 	android:name
 		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:7:22-62
 application
-ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:9:5-45:19
+ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:9:5-35:19
 MERGED from [:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-24:19
 MERGED from [:pickphotoview] C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\pickphotoview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\PC\.gradle\caches\transforms-3\0d291c9371dfbedda11ea76171717f69\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
@@ -149,20 +138,20 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:21:27-74
-provider#androidx.core.content.FileProvider
+provider#com.werb.pickphotoview.provider.PickProvider
 ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:grantUriPermissions
 		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:29:13-47
 	android:authorities
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:27:13-59
+		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:27:13-68
 	android:exported
 		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:26:13-62
+		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:26:13-72
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:30:13-32:64
+ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:30:13-32:59
 	android:resource
-		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:32:17-51
+		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:32:17-56
 	android:name
 		ADDED from C:\Users\PC\StudioProjects\2023\05-2023\PickPhotoSample\app\src\main\AndroidManifest.xml:31:17-67
 uses-sdk

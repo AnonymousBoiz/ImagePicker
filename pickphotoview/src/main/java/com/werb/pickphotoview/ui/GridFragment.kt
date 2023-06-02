@@ -59,9 +59,9 @@ class GridFragment : Fragment() {
         EventBus.unRegister(this)
     }
 
-    private fun getData() {
+    fun getData(isAddedAtTop: Boolean = false) {
         GlobalData.model?.let {
-            PickPhotoHelper.start(it.isShowGif, context?.applicationContext?.contentResolver ?: return)
+            PickPhotoHelper.start(it.isShowGif, context?.applicationContext?.contentResolver ?: return, isAddedAtTop)
         }
     }
 
@@ -163,7 +163,7 @@ class GridFragment : Fragment() {
     }
 
     @Subscriber(mode = ThreadMode.MAIN, tag = "switch")
-    private fun switch(event: PickFinishEvent) {
+    fun reloadData(event: PickFinishEvent) {
         images(event)
     }
 

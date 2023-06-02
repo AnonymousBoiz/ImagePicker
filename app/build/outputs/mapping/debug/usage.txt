@@ -20048,10 +20048,17 @@ com.werb.library.link.XDiffCallback
 com.werb.pickphotosample.BuildConfig
 com.werb.pickphotosample.MainActivity:
     public void _$_clearFindViewByIdCache()
-    public android.view.View _$_findCachedViewById(int)
 com.werb.pickphotosample.R$color
 com.werb.pickphotosample.R$drawable
-com.werb.pickphotosample.R$id
+com.werb.pickphotosample.R$id:
+    public static final int btn1
+    public static final int btn2
+    public static final int btn3
+    public static final int image
+    public static final int intro_layout
+    public static final int listview_background_shape
+    public static final int photo_list
+    private void <init>()
 com.werb.pickphotosample.R$layout
 com.werb.pickphotosample.R$mipmap
 com.werb.pickphotosample.R$string
@@ -20129,9 +20136,15 @@ com.werb.pickphotoview.util.PickConfig:
     public final java.lang.String getINTENT_IMG_LIST()
     public final java.lang.String getINTENT_IMG_PATH()
     public final java.lang.String getINTENT_PICK_DATA()
+com.werb.pickphotoview.util.PickPhotoHelper:
+    public static synthetic void start$default(com.werb.pickphotoview.util.PickPhotoHelper,boolean,android.content.ContentResolver,boolean,int,java.lang.Object)
 com.werb.pickphotoview.util.PickUtils:
     private int computeScale(android.graphics.BitmapFactory$Options,int,int)
+    private java.io.File createDir(java.lang.String)
+    public java.lang.String getFilePath(android.content.Context)
     public int getHeightPixels()
+    private java.lang.String getPhotoFileName()
+    private java.lang.String getSavePhotoDir(android.content.Context)
     public android.graphics.Bitmap loadBitmap(java.lang.String,int,int)
     private android.graphics.Bitmap matrixBitmap(android.graphics.Bitmap)
     public int px2dp(float)

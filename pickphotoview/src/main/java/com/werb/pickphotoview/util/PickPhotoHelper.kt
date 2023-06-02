@@ -26,9 +26,9 @@ object PickPhotoHelper {
     var dirImage: DirImage? = null
         private set
 
-    fun start(showGif: Boolean, resolver: ContentResolver) {
+    fun start(showGif: Boolean, resolver: ContentResolver, isAddedAtTop: Boolean = false) {
         clear()
-        imageThread(showGif, resolver).start()
+        imageThread(showGif, resolver, isAddedAtTop).start()
         Log.d("PickPhotoView", "PickPhotoHelper start")
     }
 
@@ -45,7 +45,7 @@ object PickPhotoHelper {
         dirImage = null
     }
 
-    private fun imageThread(showGif: Boolean, resolver: ContentResolver): Thread {
+    private fun imageThread(showGif: Boolean, resolver: ContentResolver,isAddedAtTop: Boolean): Thread {
         return Thread(Runnable {
             val mImageUri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI
 
@@ -88,6 +88,7 @@ object PickPhotoHelper {
                     chileList.add(path)
                     mGroupMap.put(PickConfig.ALL_PHOTOS, chileList)
                 } else {
+                    Log.d("66666", path)
                     mGroupMap[PickConfig.ALL_PHOTOS]?.add(path)
                 }
                 // save by parent name
@@ -101,8 +102,10 @@ object PickPhotoHelper {
                 }
             }
             mCursor.close()
+
             val groupImage = GroupImage()
             groupImage.mGroupMap = mGroupMap
+            Log.d("44444444444444", mGroupMap[PickConfig.ALL_PHOTOS]?.size.toString())
             val dirImage = DirImage(dirNames)
             this.groupImage = groupImage
             this.dirImage = dirImage

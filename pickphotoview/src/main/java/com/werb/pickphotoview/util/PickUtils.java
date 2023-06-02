@@ -34,6 +34,8 @@ public class PickUtils {
     private static PickUtils mInstance = null;
     private Context context;
 
+    private String mPath = "";
+
     public static PickUtils getInstance(Context context) {
         if (mInstance == null) {
             synchronized (PickUtils.class) {
@@ -145,7 +147,7 @@ public class PickUtils {
     }
 
     private  File createDir(String directory) {
-        File createDir = new File(Environment.getExternalStorageDirectory() + File.separator + directory);
+        File createDir = new File(directory);
         if (!createDir.exists()) {
             if (createDir.mkdirs()) {
                 return createDir;
@@ -156,24 +158,37 @@ public class PickUtils {
         return null;
     }
 
-    public File getPhotoFile(Context context){
-        File dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM);
-        if(!dir.exists()){
-            dir = createDir(getSavePhotoDir(context));
+    public String getPath(){
+        return mPath;
+    }
+
+    public File createImageFile(Context context){
+        // Create an image file name
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String imageFileName = "JPEG_" + timeStamp + "_";
+        File storageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+        File image = null;
+        try {
+            image = File.createTempFile(imageFileName, ".jpg",storageDir);
+            // Save a file: path for use with ACTION_VIEW intents
+            mPath = image.getAbsolutePath();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        return new File(dir, "capture.jpg");
+        return image;
     }
 
     private String getPhotoFileName() {
         Date date = new Date(System.currentTimeMillis());
         SimpleDateFormat dateFormat = new SimpleDateFormat("'IMG'_yyyyMMdd_HHmmss");
-        return dateFormat.format(date) + ".jpg";
+//        return dateFormat.format(date) + ".jpg";
+        return "capture.jpg";
     }
 
     public String getFilePath(Context context){
-        File oldFile = getPhotoFile(context);
-        File dir = createDir(getSavePhotoDir(context));
-        File newFile = new File(dir , getPhotoFileName());
+        File oldFile = new File(getPath());
+        File dir = Environment.getExternalStorageDirectory();
+        File newFile = new File(getPath());
         // 复制文件
         int byteread ; // 读取的字节数
         InputStream in = null;

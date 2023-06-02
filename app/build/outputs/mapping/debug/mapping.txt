@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: 0eb913b
-# pg_map_hash: SHA-256 0eb913b66d6397a61e7518be046d2c3656e57d07673b15b94293e8f21005d0a2
+# pg_map_id: 128de75
+# pg_map_hash: SHA-256 128de750737e734e12b7a8241807edf5abac7079353ae0d528bd2b907c5a55c7
 android.app.AppComponentFactory -> android.app.AppComponentFactory:
 # {"id":"com.android.tools.r8.synthesized"}
     void <clinit>() -> <clinit>
@@ -20866,13 +20866,13 @@ com.werb.pickphotosample.MainActivity -> com.werb.pickphotosample.MainActivity:
       # {"id":"com.android.tools.r8.synthesized"}
     void $r8$lambda$uRkduhb0bkmUW7tkSdUBDSERVGI(com.werb.pickphotosample.MainActivity,android.view.View) -> $r8$lambda$uRkduhb0bkmUW7tkSdUBDSERVGI
       # {"id":"com.android.tools.r8.synthesized"}
-    23:29:void <init>() -> <init>
-    103:114:void onActivityResult(int,int,android.content.Intent) -> onActivityResult
-    32:100:void onCreate(android.os.Bundle) -> onCreate
-    48:60:void onCreate$lambda$0(com.werb.pickphotosample.MainActivity,android.view.View) -> onCreate$lambda$0
-    65:77:void onCreate$lambda$1(com.werb.pickphotosample.MainActivity,android.view.View) -> onCreate$lambda$1
-    82:92:void onCreate$lambda$2(com.werb.pickphotosample.MainActivity,android.view.View) -> onCreate$lambda$2
-    117:129:void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
+    24:32:void <init>() -> <init>
+    112:132:void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    35:109:void onCreate(android.os.Bundle) -> onCreate
+    52:64:void onCreate$lambda$0(com.werb.pickphotosample.MainActivity,android.view.View) -> onCreate$lambda$0
+    69:81:void onCreate$lambda$1(com.werb.pickphotosample.MainActivity,android.view.View) -> onCreate$lambda$1
+    86:96:void onCreate$lambda$2(com.werb.pickphotosample.MainActivity,android.view.View) -> onCreate$lambda$2
+    139:151:void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
 com.werb.pickphotosample.MainActivity$$ExternalSyntheticLambda0 -> com.werb.pickphotosample.MainActivity$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -20928,20 +20928,20 @@ com.werb.pickphotoview.PickPhotoActivity -> com.werb.pickphotoview.PickPhotoActi
       # {"id":"com.android.tools.r8.synthesized"}
     void $r8$lambda$G_httzjUQkTlxKH0fZuUj8TrckU(com.werb.pickphotoview.PickPhotoActivity,android.view.View) -> $r8$lambda$G_httzjUQkTlxKH0fZuUj8TrckU
       # {"id":"com.android.tools.r8.synthesized"}
-    32:37:void <init>() -> <init>
-    110:116:void add() -> add
-    178:183:void finish() -> finish
-    47:70:void initToolbar() -> initToolbar
-    56:56:void initToolbar$lambda$3$lambda$0(com.werb.pickphotoview.PickPhotoActivity,android.view.View) -> initToolbar$lambda$3$lambda$0
-    65:65:void initToolbar$lambda$3$lambda$1(com.werb.pickphotoview.PickPhotoActivity,android.view.View) -> initToolbar$lambda$3$lambda$1
-    66:66:void initToolbar$lambda$3$lambda$2(com.werb.pickphotoview.PickPhotoActivity,android.view.View) -> initToolbar$lambda$3$lambda$2
-    143:167:void onActivityResult(int,int,android.content.Intent) -> onActivityResult
-    40:44:void onCreate(android.os.Bundle) -> onCreate
-    136:140:void pick(com.werb.pickphotoview.event.PickFinishEvent) -> pick
-    73:93:void showFragment() -> showFragment
-    119:127:void sure() -> sure
-    96:107:void switch() -> switch
-    131:132:void textChange(com.werb.pickphotoview.event.PickImageEvent) -> textChange
+    37:42:void <init>() -> <init>
+    115:121:void add() -> add
+    190:195:void finish() -> finish
+    52:75:void initToolbar() -> initToolbar
+    61:61:void initToolbar$lambda$3$lambda$0(com.werb.pickphotoview.PickPhotoActivity,android.view.View) -> initToolbar$lambda$3$lambda$0
+    70:70:void initToolbar$lambda$3$lambda$1(com.werb.pickphotoview.PickPhotoActivity,android.view.View) -> initToolbar$lambda$3$lambda$1
+    71:71:void initToolbar$lambda$3$lambda$2(com.werb.pickphotoview.PickPhotoActivity,android.view.View) -> initToolbar$lambda$3$lambda$2
+    148:179:void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    45:49:void onCreate(android.os.Bundle) -> onCreate
+    141:145:void pick(com.werb.pickphotoview.event.PickFinishEvent) -> pick
+    78:98:void showFragment() -> showFragment
+    124:132:void sure() -> sure
+    101:112:void switch() -> switch
+    136:137:void textChange(com.werb.pickphotoview.event.PickImageEvent) -> textChange
 com.werb.pickphotoview.PickPhotoActivity$$ExternalSyntheticLambda0 -> com.werb.pickphotoview.PickPhotoActivity$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -20968,8 +20968,8 @@ com.werb.pickphotoview.PickPhotoActivity$$ExternalSyntheticLambda2 -> com.werb.p
       # {"id":"com.android.tools.r8.synthesized"}
 com.werb.pickphotoview.PickPhotoActivity$Companion -> com.werb.pickphotoview.PickPhotoActivity$Companion:
 # {"id":"sourceFile","fileName":"PickPhotoActivity.kt"}
-    169:169:void <init>() -> <init>
-    171:174:void startActivity(android.app.Activity,int) -> startActivity
+    181:181:void <init>() -> <init>
+    183:186:void startActivity(android.app.Activity,int) -> startActivity
 com.werb.pickphotoview.PickPhotoPreviewActivity -> com.werb.pickphotoview.PickPhotoPreviewActivity:
 # {"id":"sourceFile","fileName":"PickPhotoPreviewActivity.kt"}
     void $r8$lambda$W0s_WWCiKE_bLWgWMGssfFeUlDo(com.werb.pickphotoview.PickPhotoPreviewActivity,android.view.View) -> $r8$lambda$W0s_WWCiKE_bLWgWMGssfFeUlDo
@@ -21069,10 +21069,10 @@ com.werb.pickphotoview.adapter.CameraViewHolder -> com.werb.pickphotoview.adapte
 # {"id":"sourceFile","fileName":"CameraViewHolder.kt"}
     void $r8$lambda$EuB71j1E-H986QC5sfJlsW9gl94(com.werb.pickphotoview.adapter.CameraViewHolder,android.view.View) -> $r8$lambda$EuB71j1E-H986QC5sfJlsW9gl94
       # {"id":"com.android.tools.r8.synthesized"}
-    15:28:void <init>(android.view.View) -> <init>
-    15:15:void bindData(java.lang.Object,java.util.List) -> bindData
-    31:46:void bindData(java.lang.String,java.util.List) -> bindData
-    32:45:void bindData$lambda$1(com.werb.pickphotoview.adapter.CameraViewHolder,android.view.View) -> bindData$lambda$1
+    19:32:void <init>(android.view.View) -> <init>
+    19:19:void bindData(java.lang.Object,java.util.List) -> bindData
+    35:50:void bindData(java.lang.String,java.util.List) -> bindData
+    36:49:void bindData$lambda$1(com.werb.pickphotoview.adapter.CameraViewHolder,android.view.View) -> bindData$lambda$1
 com.werb.pickphotoview.adapter.CameraViewHolder$$ExternalSyntheticLambda0 -> com.werb.pickphotoview.adapter.CameraViewHolder$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -21101,21 +21101,21 @@ com.werb.pickphotoview.adapter.GridImageViewHolder -> com.werb.pickphotoview.ada
 # {"id":"sourceFile","fileName":"GridImageViewHolder.kt"}
     void $r8$lambda$YWG5lODAXdDoTqmVGdMyg_1GUAk(com.werb.pickphotoview.adapter.GridImageViewHolder,com.werb.pickphotoview.model.GridImage,android.view.View) -> $r8$lambda$YWG5lODAXdDoTqmVGdMyg_1GUAk
       # {"id":"com.android.tools.r8.synthesized"}
-    26:26:void bindData(java.lang.Object,java.util.List) -> <init>
-    26:26:void <init>(android.view.View):26 -> <init>
-    28:43:void <init>(android.view.View) -> <init>
-    26:26:void bindData(java.lang.Object,java.util.List) -> <init>
-    26:26:void <init>(android.view.View):26 -> <init>
-    26:26:void bindData(java.lang.Object,java.util.List) -> bindData
-    46:55:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List) -> bindData
+    27:27:void bindData(java.lang.Object,java.util.List) -> <init>
+    27:27:void <init>(android.view.View):27 -> <init>
+    29:44:void <init>(android.view.View) -> <init>
+    27:27:void bindData(java.lang.Object,java.util.List) -> <init>
+    27:27:void <init>(android.view.View):27 -> <init>
+    27:27:void bindData(java.lang.Object,java.util.List) -> bindData
+    47:57:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List) -> bindData
     1855:1855:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1) -> bindData
-    1855:1855:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List):55 -> bindData
-    56:59:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List) -> bindData
+    1855:1855:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List):57 -> bindData
+    58:61:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List) -> bindData
     1855:1856:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1) -> bindData
-    1855:1856:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List):55 -> bindData
-    61:84:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List) -> bindData
-    80:81:void bindData$lambda$4$lambda$3(com.werb.pickphotoview.adapter.GridImageViewHolder,com.werb.pickphotoview.model.GridImage,android.view.View) -> bindData$lambda$4$lambda$3
-    87:103:void select(com.werb.pickphotoview.model.GridImage) -> select
+    1855:1856:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List):57 -> bindData
+    63:86:void bindData(com.werb.pickphotoview.model.GridImage,java.util.List) -> bindData
+    82:83:void bindData$lambda$4$lambda$3(com.werb.pickphotoview.adapter.GridImageViewHolder,com.werb.pickphotoview.model.GridImage,android.view.View) -> bindData$lambda$4$lambda$3
+    89:105:void select(com.werb.pickphotoview.model.GridImage) -> select
 com.werb.pickphotoview.adapter.GridImageViewHolder$$ExternalSyntheticLambda0 -> com.werb.pickphotoview.adapter.GridImageViewHolder$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -21210,7 +21210,8 @@ com.werb.pickphotoview.ui.GridFragment -> com.werb.pickphotoview.ui.GridFragment
     40:40:void access$removeImage(com.werb.pickphotoview.ui.GridFragment,com.werb.pickphotoview.model.GridImage,int):40 -> access$removeImage
     135:141:void add() -> add
     120:124:void addImage(com.werb.pickphotoview.model.GridImage,int) -> addImage
-    63:66:void getData() -> getData
+    63:66:void getData(boolean) -> getData
+    62:62:void getData$default(com.werb.pickphotoview.ui.GridFragment,boolean,int,java.lang.Object) -> getData$default
     androidx.lifecycle.viewmodel.CreationExtras getDefaultViewModelCreationExtras() -> getDefaultViewModelCreationExtras
       # {"id":"com.android.tools.r8.synthesized"}
     44:44:com.bumptech.glide.RequestManager getManager() -> getManager
@@ -21225,6 +21226,7 @@ com.werb.pickphotoview.ui.GridFragment -> com.werb.pickphotoview.ui.GridFragment
     48:48:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
     58:60:void onDestroyView() -> onDestroyView
     52:55:void onViewCreated(android.view.View,android.os.Bundle) -> onViewCreated
+    167:168:void reloadData(com.werb.pickphotoview.event.PickFinishEvent) -> reloadData
     128:132:void removeImage(com.werb.pickphotoview.model.GridImage,int) -> removeImage
     172:172:void select(com.werb.pickphotoview.event.PickPreviewEvent) -> select
     1855:1855:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1) -> select
@@ -21233,7 +21235,6 @@ com.werb.pickphotoview.ui.GridFragment -> com.werb.pickphotoview.ui.GridFragment
     1855:1856:void kotlin.collections.CollectionsKt___CollectionsKt.forEach(java.lang.Iterable,kotlin.jvm.functions.Function1) -> select
     1855:1856:void select(com.werb.pickphotoview.event.PickPreviewEvent):172 -> select
     180:181:void select(com.werb.pickphotoview.event.PickPreviewEvent) -> select
-    167:168:void switch(com.werb.pickphotoview.event.PickFinishEvent) -> switch
 com.werb.pickphotoview.ui.GridFragment$manager$2 -> com.werb.pickphotoview.ui.GridFragment$manager$2:
 # {"id":"sourceFile","fileName":"GridFragment.kt"}
     44:44:com.bumptech.glide.RequestManager invoke() -> invoke
@@ -21287,19 +21288,19 @@ com.werb.pickphotoview.util.PickPhotoHelper -> com.werb.pickphotoview.util.PickP
     26:26:com.werb.pickphotoview.model.DirImage getDirImage() -> getDirImage
     24:24:com.werb.pickphotoview.model.GroupImage getGroupImage() -> getGroupImage
     21:21:java.util.List getSelectImages() -> getSelectImages
-    49:49:java.lang.Thread imageThread(boolean,android.content.ContentResolver) -> imageThread
-    50:110:void imageThread$lambda$0(boolean,android.content.ContentResolver,com.werb.pickphotoview.util.PickPhotoHelper) -> imageThread$lambda$0
-    30:33:void start(boolean,android.content.ContentResolver) -> start
+    49:49:java.lang.Thread imageThread(boolean,android.content.ContentResolver,boolean) -> imageThread
+    50:113:void imageThread$lambda$0(boolean,android.content.ContentResolver,com.werb.pickphotoview.util.PickPhotoHelper) -> imageThread$lambda$0
+    30:33:void start(boolean,android.content.ContentResolver,boolean) -> start
     36:38:void stop() -> stop
 com.werb.pickphotoview.util.PickPhotoHelper$$ExternalSyntheticLambda0 -> com.werb.pickphotoview.util.PickPhotoHelper$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    android.content.ContentResolver com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$0455da46265989837b7aad74a659a050a6088d01ce80fce8f61b74f0304d1362$0.f$1 -> f$1
-    boolean com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$0455da46265989837b7aad74a659a050a6088d01ce80fce8f61b74f0304d1362$0.f$0 -> f$0
-    com.werb.pickphotoview.util.PickPhotoHelper com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$0455da46265989837b7aad74a659a050a6088d01ce80fce8f61b74f0304d1362$0.f$2 -> f$2
-    void com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$0455da46265989837b7aad74a659a050a6088d01ce80fce8f61b74f0304d1362$0.<init>(boolean,android.content.ContentResolver,com.werb.pickphotoview.util.PickPhotoHelper) -> <init>
+    android.content.ContentResolver com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$e081eee233cb22ee4b854824ca8094503e645cf30e25267c2df6fa6b28116187$0.f$1 -> f$1
+    boolean com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$e081eee233cb22ee4b854824ca8094503e645cf30e25267c2df6fa6b28116187$0.f$0 -> f$0
+    com.werb.pickphotoview.util.PickPhotoHelper com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$e081eee233cb22ee4b854824ca8094503e645cf30e25267c2df6fa6b28116187$0.f$2 -> f$2
+    void com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$e081eee233cb22ee4b854824ca8094503e645cf30e25267c2df6fa6b28116187$0.<init>(boolean,android.content.ContentResolver,com.werb.pickphotoview.util.PickPhotoHelper) -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    void com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$0455da46265989837b7aad74a659a050a6088d01ce80fce8f61b74f0304d1362$0.run() -> run
+    void com.werb.pickphotoview.util.PickPhotoHelper$$InternalSyntheticLambda$1$e081eee233cb22ee4b854824ca8094503e645cf30e25267c2df6fa6b28116187$0.run() -> run
       # {"id":"com.android.tools.r8.synthesized"}
 com.werb.pickphotoview.util.PickPhotoHelper$selectImages$2 -> com.werb.pickphotoview.util.PickPhotoHelper$selectImages$2:
 # {"id":"sourceFile","fileName":"PickPhotoHelper.kt"}
@@ -21307,16 +21308,13 @@ com.werb.pickphotoview.util.PickPhotoHelper$selectImages$2 -> com.werb.pickphoto
     21:21:java.util.List invoke() -> invoke
 com.werb.pickphotoview.util.PickUtils -> com.werb.pickphotoview.util.PickUtils:
     34:34:void <clinit>() -> <clinit>
-    48:50:void <init>(android.content.Context) -> <init>
-    148:156:java.io.File createDir(java.lang.String) -> createDir
-    77:78:int dp2px(float) -> dp2px
-    174:203:java.lang.String getFilePath(android.content.Context) -> getFilePath
-    38:45:com.werb.pickphotoview.util.PickUtils getInstance(android.content.Context) -> getInstance
-    160:164:java.io.File getPhotoFile(android.content.Context) -> getPhotoFile
-    168:170:java.lang.String getPhotoFileName() -> getPhotoFileName
-    144:144:java.lang.String getSavePhotoDir(android.content.Context) -> getSavePhotoDir
-    130:140:android.net.Uri getUri(java.io.File) -> getUri
-    53:61:int getWidthPixels() -> getWidthPixels
+    37:52:void <init>(android.content.Context) -> <init>
+    167:178:java.io.File createImageFile(android.content.Context) -> createImageFile
+    79:80:int dp2px(float) -> dp2px
+    40:47:com.werb.pickphotoview.util.PickUtils getInstance(android.content.Context) -> getInstance
+    162:162:java.lang.String getPath() -> getPath
+    132:142:android.net.Uri getUri(java.io.File) -> getUri
+    55:63:int getWidthPixels() -> getWidthPixels
 com.werb.pickphotoview.widget.PreviewImage -> com.werb.pickphotoview.widget.PreviewImage:
 # {"id":"sourceFile","fileName":"PreviewImage.kt"}
     void $r8$lambda$R_tn6kcAIpZE1Vmh-v8-RZUKd9o(kotlin.jvm.functions.Function0,android.view.View) -> $r8$lambda$R_tn6kcAIpZE1Vmh-v8-RZUKd9o

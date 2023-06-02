@@ -1,4 +1,4 @@
-#Tue May 30 15:05:32 ICT 2023
+#Fri Jun 02 17:42:43 ICT 2023
 base.0=C\:\\Users\\PC\\StudioProjects\\2023\\05-2023\\PickPhotoSample\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

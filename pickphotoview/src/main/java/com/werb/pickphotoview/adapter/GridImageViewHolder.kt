@@ -3,6 +3,7 @@ package com.werb.pickphotoview.adapter
 import android.app.Activity
 import android.graphics.PorterDuff
 import android.net.Uri
+import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import com.werb.library.MoreViewHolder
@@ -44,6 +45,7 @@ class GridImageViewHolder(containerView: View) : MoreViewHolder<GridImage>(conta
 
     override fun bindData(data: GridImage, payloads: List<Any>) {
         weekImage?.let {
+            Log.d("66666666", data.path)
             Glide.with(context)
                     .asBitmap()
                     .load(Uri.parse("file://" + data.path))
